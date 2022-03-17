@@ -26,7 +26,7 @@ We will be using Jetpack 4.5 and <b>NOT</b> Jetpack 4.6 (has TensorRT 7) as 4.5 
 If you are interested in converting your custom trained YoloV5 model to TensorRT and run it using DeepStream, follow [this](https://sahilchachra.medium.com/run-yolov5s-with-tensorrt-and-deepstream-on-nvidia-jetson-nano-8c888a2f0eae) blog to DIY.
 
 <center>
-    <img scr="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assets/nano.jpeg" style="width:70%;height:70%;">
+    <img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assets/nano.jpeg" style="width:70%;height:70%;">
 </center>
 
 ## :dizzy: References

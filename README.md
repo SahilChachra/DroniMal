@@ -22,10 +22,10 @@ We will be using Jetpack 4.5 and <b>NOT</b> Jetpack 4.6 (has TensorRT 7) as 4.5 
 If you are interested in converting your custom trained YoloV5 model to TensorRT and run it using DeepStream, follow [this](https://sahilchachra.medium.com/run-yolov5s-with-tensorrt-and-deepstream-on-nvidia-jetson-nano-8c888a2f0eae) blog to DIY.
 
 ## :dizzy: References
-Dataset : [Lila - Conservation Drones](https://lila.science/datasets/conservationdrones)
-Object detection model : [YoloV5](https://github.com/ultralytics/yolov5)
-TensorRT : [YoloV5](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5)
-DeepStream : [5.1](https://docs.nvidia.com/metropolis/deepstream/5.1/dev-guide/index.html)
+Dataset : [Lila - Conservation Drones](https://lila.science/datasets/conservationdrones) <br>
+Object detection model : [YoloV5](https://github.com/ultralytics/yolov5) <br>
+TensorRT : [YoloV5](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5) <br>
+DeepStream : [5.1](https://docs.nvidia.com/metropolis/deepstream/5.1/dev-guide/index.html) <br>
 
 ## :hammer_and_wrench: Extras
 

@@ -1,4 +1,4 @@
-<h1 align="center">Project Title</h1>
+<h1 align="center">DroniMal</h1>
 
 ## :star: Introduction
 X application is an intelligent video analytics pipeline powered by DeepStream and Nvidia jetson nano. This application aims to help those who work day in and day out to save animals from being poached. Poaching is increasing everyday and it's getting worse with time. Very soon more animals will come under the endagered list! This app help rescuers monitor movement of the animals at night and detect poachers or their vehicle.

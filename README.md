@@ -9,7 +9,7 @@ X application is an intelligent video analytics pipeline powered by DeepStream a
     <h3>Jetson Nano's resource utilization while running DeepStream</h2>
     <img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assests/jtop_ss_1.png" style="width:90%;height:90%;">
     <h3>FPS while running DeepStream with 4 input streams</h3>
-    <img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assests/deepstream_fps.jpg" style="width:90%;height:90%;">
+    <img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assests/deepstream_fps.jpg" style="width:70%;height:70%;">
 </center>
 
 ## :hammer_and_wrench: Installing requirements and running the repo

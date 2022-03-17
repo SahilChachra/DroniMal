@@ -5,7 +5,7 @@ X application is an intelligent video analytics pipeline powered by DeepStream a
 
 ## :framed_picture: Screenshots
 
-<center><img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assests/jtop_ss_1.png" style="width:50%;height:50%;"></center>
+<center><img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assests/jtop_ss_1.png" style="width:70%;height:70%;"></center>
 
 ## :hammer_and_wrench: Installing requirements and running the repo
 We will be using Jetpack 4.5 and <b>NOT</b> Jetpack 4.6 (has TensorRT 7) as 4.5 comes with TensorRT 6 which is supported by current implementation of YoloV5 models.

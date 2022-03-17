@@ -6,7 +6,7 @@ X application is an intelligent video analytics pipeline powered by DeepStream a
 ## :framed_picture: Screenshots
 
 <center>
-<h2>Jetson Nano's resource utilization while running DeepStream</h2>
+<h3>Jetson Nano's resource utilization while running DeepStream</h2>
 <img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assests/jtop_ss_1.png" style="width:90%;height:90%;">
 </center>
 

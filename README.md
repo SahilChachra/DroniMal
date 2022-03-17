@@ -18,7 +18,7 @@ We will be using Jetpack 4.5 and <b>NOT</b> Jetpack 4.6 (has TensorRT 7) as 4.5 
     <li>Set up your Jetson by following the steps here :  <a href="https://developer.nvidia.com/jetpack-sdk-451-archive">Installing Jetpack</a></li>
     <li>Increase swap size : <a href="https://www.youtube.com/watch?v=uvU8AXY1170">Video</a></li>
     <li>To install DeepStream, follow this <a href="https://docs.nvidia.com/metropolis/deepstream/5.1/dev-guide/text/DS_Quickstart.html#jetson-setup">documentation</a></li>
-    <li>Now, clone this repo and copy it inside path : <b><i>cp -r ./deepstream_yolo_wildlife /opt/nvidia/deepstream/deepstream-5.1/sources/</b></i></li>
+    <li>Now, clone this repo and paste it in deepstream/sources : <b><i>cp -r ./deepstream_yolo_wildlife /opt/nvidia/deepstream/deepstream-5.1/sources/</b></i></li>
     <li>Run this to compile the lib : <b><i>CUDA_VER=10.2 make -C nvdsinfer_custom_impl_Yolo</b></i></li>
     <li>Now, inside deepstream_yolo_wildlife, run this command <b><i>deepstream-app -c deepstream_app_config.txt</b></i>
 </ol>

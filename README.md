@@ -6,6 +6,8 @@ African elephants are few such animals which are being poached the most and henc
 Such applications can help all the wildlife enthusiasts to keep an eye and protect their lovely animals in the wild. <br><br>
 Currently the demo shown, fetches 4 input streams locally and performs detection parallely. On an average, we get 4 FPS per stream. The model used is YoloV5s V6 which was then converted to TensorRT engine. Then the TensorRT engine was used to perform inference using Nvidia's DeepStream. The device used for the demos is Nvidia's Jetson Nano B01.
 
+## :movie_camera: Demo
+<video src='https://github.com/SahilChachra/DroniMal/blob/main/assets/wildlife_jetnano_final.mp4' width=180/>
 
 ## :framed_picture: Screenshots
 
@@ -39,6 +41,6 @@ Object detection model : [YoloV5](https://github.com/ultralytics/yolov5) <br>
 TensorRT : [YoloV5](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5) <br>
 DeepStream : [5.1](https://docs.nvidia.com/metropolis/deepstream/5.1/dev-guide/index.html) <br>
 
-## :hammer_and_wrench: Extras
+## :fireworks: Extras
 
 This work can be extended by adding more classes to detect. One can also add tracking mechanism to help track the objects across multiple videos. Further more, a Jetson nano can be mounted on the drone and can help perform video analytics live!

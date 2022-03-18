@@ -7,7 +7,7 @@ Such applications can help all the wildlife enthusiasts to keep an eye and prote
 Currently the demo shown, fetches 4 input streams locally and performs detection parallely. On an average, we get 4 FPS per stream. The model used is YoloV5s V6 which was then converted to TensorRT engine. Then the TensorRT engine was used to perform inference using Nvidia's DeepStream. The device used for the demos is Nvidia's Jetson Nano B01.
 
 ## :movie_camera: Demo
-<video src='https://github.com/SahilChachra/DroniMal/blob/main/assets/wildlife_jetnano_final.mp4' width=180/>
+<video src='https://github.com/SahilChachra/DroniMal/blob/main/assets/wildlife_jetnano_final.mp4' width=180></video>
 
 ## :framed_picture: Screenshots
 

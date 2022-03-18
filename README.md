@@ -3,8 +3,9 @@
 ## :star: Introduction
 DroniMal is an intelligent video analytics pipeline powered by Nvidia's Jetson nano and DeepStream. This application aims to help those who work day in and day out to save animals from being poached. Every year, on an average, 38 million animals are being poached resulting in many species almost near to extinction or they now come under endangered species.<br><br>
 African elephants are few such animals which are being poached the most and hence fall under Endangered species as per IUCN (International Union for Conservation of Nature) Red List. Even giraffes have become vulnerable and come under high risk of extinction by IUCN. Hence, DroniMal helps keep an eye on elephants and giraffes, help monitor their movement in the wild and also monitor their migration to protect them in every way possible. DroniMal would be best fit when used in wild where we would expect only animals and no human/human object. Hence, DroniMal can detect vehicles too, indicating danger to the wild animals.<br><br>
-Such applications can help all the wildlife enthusiasts to keep an eye and protect their lovely animals in the wild.
-Currently the demo shown, fetches the input from local file but it can also take live rtsp stream as input. The nano can also be mounted on the drone to perform processing on the fly and can also track/follow any object of interest in future.
+Such applications can help all the wildlife enthusiasts to keep an eye and protect their lovely animals in the wild. <br><br>
+Currently the demo shown, fetches 4 input streams locally and performs detection parallely. On an average, we get 4 FPS per stream. The model used is YoloV5s V6 which was then converted to TensorRT engine. Then the TensorRT engine was used to perform inference using Nvidia's DeepStream.
+
 
 ## :framed_picture: Screenshots
 

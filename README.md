@@ -6,9 +6,6 @@ African elephants are few such animals which are being poached the most and henc
 Such applications can help all the wildlife enthusiasts to keep an eye and protect their lovely animals in the wild. <br><br>
 Currently the demo shown, fetches 4 input streams locally and performs detection parallely. On an average, we get 4 FPS per stream. The model used is YoloV5s V6 which was then converted to TensorRT engine. Then the TensorRT engine was used to perform inference using Nvidia's DeepStream. The device used for the demos is Nvidia's Jetson Nano B01.
 
-## :movie_camera: Demo
-<video src='https://github.com/SahilChachra/DroniMal/blob/main/assets/wildlife_jetnano_final.mp4' width=180></video>
-
 ## :framed_picture: Screenshots
 
 <center>
@@ -17,6 +14,8 @@ Currently the demo shown, fetches 4 input streams locally and performs detection
     <h3>FPS while running DeepStream with 4 input streams</h3>
     <img src="https://github.com/SahilChachra/Wildlife-rescuer/blob/main/assets/deepstream_fps.jpg" style="width:70%;height:70%;">
 </center>
+
+Demo Link : [YouTube](https://youtu.be/Q_W8RClvQXg)
 
 ## :hammer_and_wrench: Installing requirements and running the repo
 We will be using Jetpack 4.5 and <b>NOT</b> Jetpack 4.6 (has TensorRT 7) as 4.5 comes with TensorRT 6 which is supported by current implementation of YoloV5 models.
